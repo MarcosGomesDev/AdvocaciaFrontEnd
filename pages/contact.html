@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <title>Contato - Segala Baldo Advocacia Criminalista Especializada</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="right">
+                    <div class="phone">
+                        <a><i class="fas fa-phone"></i> +55 11 96634-5023</a>
+                    </div>
+                    <div class="email">
+                        <a><i class="fas fa-envelope"></i> contato@segalaebaldo.com.br</a>
+                    </div>
+                    <div class="location">                        
+                        <a><i class="fas fa-map-marker-alt"></i> 157 - Sala 1811, Avenida Ordem e Progresso, São Paulo, Br</a>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="social-link">
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <section>
+            <div class="menu">
+                <div class="logo">
+                    <img src="../images/LOGO.png" />
+                </div>
+                <div class="menu-desk">
+                    <ul class="options">
+                        <li>
+                            <a href="../index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="./services.html">SERVIÇOS</a>
+                        </li>
+                        <li class="active">
+                            <a href="./contact.html">CONTATO</a>
+                        </li>
+                        <li>
+                            <a href="./location.html">LOCALIZAÇÃO</a>
+                        </li>
+                        <li>
+                            <a href="./artigs.html">ARTIGOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h3>Meios de Contato</h3>
+            <div class="container">
+                <div class="right">
+                    <div class="content">
+                        <span><i class="fas fa-briefcase"></i></span>
+                        <p>Dr. Matheus Segala</p>
+                        <p><i class="fab fa-whatsapp"></i> 11 96634-5023</p>
+                        <p>Emergências/Whatsapp: 24h</p>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="content">
+                        <span><i class="fas fa-briefcase"></i></span>
+                        <p>Dra. Mayara Baldo</p>
+                        <p><i class="fab fa-whatsapp"></i> 11 96634-5023</p>
+                        <p>Emergências/Whatsapp: 24h</p>
+                    </div>
+                </div>                
+            </div>
+            <p><i class="fas fa-map-marker-alt"></i> Avenida Ordem e Progresso, nº 157 - sala 1811 - Barra Funda - CEP: 01141-030 - São Paulo/SP.</p>
+        </section>
+    </div>
+
+    <section class="send">
+        <h3>Fale Conosco!</h3>
+        <p>Deixe sua mensagem e em breve retornaremos.</p>
+        <div class="form-send">
+            <form action="">
+                <label for="">
+                    Nome:
+                    <input type="text">
+                </label>
+                <label for="">
+                    Sobrenome:
+                    <input type="text">
+                </label>
+                <label for="">
+                    E-mail:
+                    <input type="email">
+                </label>
+                <label for="">
+                    Telefone:
+                    <input type="tel">
+                </label>
+                <label for="">
+                    Sua mensagem:
+                    <textarea class="message" name="" id="" cols="30" rows="10"></textarea>
+                </label>
+                <a href="">Enviar mensagem</a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="right">
+                <h5>Endereço</h5>
+                <p><i class="fas fa-map-marker-alt"></i> Avenida Ordem e Progresso, nº 157 - sala 1811
+                    São Paulo, 01141-030, BR</p>
+            </div>
+        <div class="left">
+            <h5>Contato</h5>
+            <p><i class="fas fa-phone"></i> +55 11 96634-5023</p>
+            <p><i class="fas fa-envelope"></i> contato@segalaebaldo.com.br</p>
+        </div>
+        </div>
+        <div class="rodape">
+           <p>© 2021 Segala & Baldo - Advocacia Criminal</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a4bf0a00ce.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('li').on('click', function() {
+                $(this).siblings().removeClass('active');
+                $(this).addClass('active');
+            })
+        })
+    </script>
+</body>
+</html>

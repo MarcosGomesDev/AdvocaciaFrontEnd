@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.menu {
+    border-bottom: 0.3px solid #b3b3b3;
+}
+
+.main {
+    background-image: none;
+    height: max-content;
+}
+
+/* ---------------------------- SERVICES -----------------------------------*/
+
+.main .services {
+    padding: 5% 5%;
+    justify-content: center;
+}
+
+.main .services h3 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+}
+
+.main .services ul {
+    list-style: circle;
+    padding: 5% 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+
+.main .services ul li {
+    height: 75px;
+    box-shadow: 1px;
+    padding: 0 2%;
+}
+
+.main .services ul li p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* ----------------------------------- FINISHED SERVICES ---------------------------------- */
+
+
+/* ----------------------------------- CONTACT AREA --------------------------------------- */
+
+.main .contact {
+    padding: 5% 5%;
+}
+
+.main .contact h3 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+    text-align: center;
+}
+
+.main .contact p {
+    font-size: 16px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    color: #3c3c3c;
+    text-align: center;
+}
+
+.main .contact .container {
+    padding: 5% 20%;
+    display: flex;
+}
+
+.main .contact .container .right, .main .contact .container .left {
+    display: block;
+    width: 50%;
+    margin: 0% 2%;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px 2px #b6b6b6;
+    padding: 5% 0;
+}
+
+.main .contact .container .right .content, .main .contact .container .left .content {
+    text-align: center;
+    padding: 5% 2%;
+}
+
+.main .contact .container .right .content span, .main .contact .container .left .content span {
+    font-size: 52px;
+    color: #3c3c3c;
+}
+
+.main .contact .container .right .content p, .main .contact .container .left .content p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 3%;
+}
+
+.send {
+    height: max-content;
+    padding: 5% 20%;
+}
+
+.send h3 {
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+    padding-bottom: 1%;
+}
+
+.send p {
+    text-align: center;
+    font-size: 16px;
+    color: #3c3c3c;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1%;
+}
+
+.send form {
+    padding-top: 5%;
+    display: grid;
+    justify-content: center;
+}
+
+.send form label {
+    padding-bottom: 3%;
+    display: grid;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3c3c3c;
+    text-align: center;
+}
+
+.send form label input {
+    width: 450px;
+    height: 45px;
+    padding: 0 3%;
+    font-size: 20px;
+    color: #3c3c3c;
+    border: 1px solid;
+}
+
+.send form label input[type='text']:focus, .send form label input[type='email']:focus, 
+.send form label input[type='tel']:focus, .send form label .message:focus {
+    border: 3px solid #686157;
+    outline: 0;
+}
+
+.send form label .message {
+    width: 450px;
+    height: 160px;
+    padding: 1% 2%;
+    font-size: 18px;
+    color: #3c3c3c;
+}
+
+.send form a {
+    padding: 20px 40px;
+    width: 450px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #686157;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.send form a:hover {
+    background-color: #3c3c3c;
+}
+
+/* ----------------------------------- FINISHED CONTACT AREA --------------------------------------- */
+
+
+/* ----------------------------------- LOCATION AREA --------------------------------------- */
+
+
+.local {
+    padding: 5% 13%;
+    width: 100%;
+    text-align: center;
+}
+
+.local h3 {
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+    padding-bottom: 3%;
+}
+
+.local p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #3c3c3c;
+    padding-bottom: 2%;
+    line-height: 30px;
+}
+
+.local img {
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 5%;
+}
+
+
+
+/* ----------------------------------- ARTIGOS AREA ------------------------------------------- */
+
+
+.artigs {
+    width: 100%;
+    padding: 5% 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    height: 390px;
+}
+
+.artigs a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.3);
+    width: max-content;
+    align-items: center;
+}
+
+.artigs a:hover {
+    box-shadow: 1px 1px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.artigs a img {
+    width: 285px;
+    height: 214px;
+}
+
+.artigs a .content {
+    padding-left: 2%;
+    padding-top: 3%;
+}
+
+.artigs a .content span {
+    color: #b3b3b3;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2%;
+}
+
+.artigs a .content h4 {
+    font-size: 26px;
+    color: #3c3c3c;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4%;
+}
+
+.artigs a .content p {
+    font-size: 14px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    color: #aaa9a9;
+    padding-top: 3%;
+    max-width: 45ch;
+}
+
+
+
+/* ----------------------------------- ARTIGO AREA ------------------------------------------- */
+
+
+.artigo {
+    padding: 5% 10%;
+}
+
+.artigo .part-1 h4, .artigo .part-2 h4, .artigo .part-3 h4,.artigo .part-4 h4 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+    padding-bottom: 1%;
+}
+
+.artigo .part-1 p, .artigo .part-2 p, .artigo .part-3 p, .artigo .part-4 p {
+    font-size: 16px;
+    font-family: 'montserrat', sans-serif;
+    color: #3c3c3c;
+    line-height: 2rem;
+    padding-bottom: 1%;
+    text-align: start;
+}
+
+.artigo .part-1, .artigo .part-2, .artigo .part-3 , .artigo .part-4 {
+    padding-bottom: 4%;
+}

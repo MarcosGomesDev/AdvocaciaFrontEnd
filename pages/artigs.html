@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="right">
+                    <div class="phone">
+                        <a><i class="fas fa-phone"></i> +55 11 96634-5023</a>
+                    </div>
+                    <div class="email">
+                        <a><i class="fas fa-envelope"></i> contato@segalaebaldo.com.br</a>
+                    </div>
+                    <div class="location">                        
+                        <a><i class="fas fa-map-marker-alt"></i> 157 - Sala 1811, Avenida Ordem e Progresso, São Paulo, Br</a>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="social-link">
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <section>
+            <div class="menu">
+                <div class="logo">
+                    <img src="../images/LOGO.png" />
+                </div>
+                <div class="menu-desk">
+                    <ul class="options">
+                        <li>
+                            <a href="../index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="./services.html">SERVIÇOS</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">CONTATO</a>
+                        </li>
+                        <li>
+                            <a href="./location.html">LOCALIZAÇÃO</a>
+                        </li>
+                        <li class="active">
+                            <a href="./artigs.html">ARTIGOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="artigs">
+            <a href="./artigo.html" target="_self">
+                <img src="../images/ARTIGO.jfif" />
+                <div class="content">
+                    <span>19 DE MAIO DE 2021</span>
+                    <h4>Prisão em flagrante: o que fazer?</h4>
+                    <p>Não é rara a ocorrência de uma prisão em flagrante, por inúmeros motivos, de alguém que 
+                    conhecemos, convivemos e</p>
+                </div>
+            </a>
+        </section>
+    </div>
+        
+    <footer>
+        <div class="container">
+            <div class="right">
+                <h5>Endereço</h5>
+                <p><i class="fas fa-map-marker-alt"></i> Avenida Ordem e Progresso, nº 157 - sala 1811
+                    São Paulo, 01141-030, BR</p>
+            </div>
+        <div class="left">
+            <h5>Contato</h5>
+            <p><i class="fas fa-phone"></i> +55 11 96634-5023</p>
+            <p><i class="fas fa-envelope"></i> contato@segalaebaldo.com.br</p>
+        </div>
+        </div>
+        <div class="rodape">
+           <p>© 2021 Segala & Baldo - Advocacia Criminal</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a4bf0a00ce.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('li').on('click', function() {
+                $(this).siblings().removeClass('active');
+                $(this).addClass('active');
+            })
+        })
+    </script>
+</body>
+</html>
